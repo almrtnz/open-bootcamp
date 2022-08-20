@@ -48,7 +48,7 @@ public class App2 {
                 System.out.println("¡Ya es otoño!");
                 break;
             default:
-                System.out.println("¡El valor de la variable no es una estación");
+                System.out.println("¡El valor de la variable no es una estación!");
         }
     }
 
