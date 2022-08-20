@@ -33,22 +33,22 @@ public class App2 {
         }
 
         // Switch
-        int estacion = 2;
+        var estacion = "primavera";
         switch (estacion) {
-            case 1:
-                System.out.println("Invierno");
+            case "invierno":
+                System.out.println("¡Ya es invierno!");
                 break;
-            case 2:
-                System.out.println("Primavera");
+            case "primavera":
+                System.out.println("¡Ya es primavera!");
                 break;
-            case 3:
-                System.out.println("Verano");
+            case "verano":
+                System.out.println("¡Ya es verano!");
                 break;
-            case 4:
-                System.out.println("Otoño");
+            case "otoño":
+                System.out.println("¡Ya es otoño!");
                 break;
             default:
-                System.out.println("El valor de la variable no es una estación");
+                System.out.println("¡El valor de la variable no es una estación");
         }
     }
 
