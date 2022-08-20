@@ -129,9 +129,9 @@ for(initialization; condition; action) {
 
 `initialization` is executed **(one time)** before the execution of the code block.
 
-we need a condition for executing the code block.
+we need a `condition` for executing the code block.
 
-the *action* is executed **(every time)** after the code block has been executed.
+the `action` is executed **(every time)** after the code block has been executed.
 
 ```java
 for (int i = 0; i < 5; i++) {
