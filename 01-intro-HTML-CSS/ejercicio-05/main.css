@@ -1,0 +1,27 @@
+body {
+	margin: 2rem;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+section {
+	background: lightcyan;
+	display: inline-block;
+	padding: 1rem 2rem;
+	margin: 0.5rem;
+	border: 0.125rem solid gray;
+	text-align: left;
+	border-radius: 0.25rem;
+	box-shadow: 0.25rem 0.25rem 0 0 lightcoral;
+}
+ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+img {
+	max-width: 300px;
+}
+li {
+	padding: 0.25rem;
+}
