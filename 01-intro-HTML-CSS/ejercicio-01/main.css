@@ -1,0 +1,11 @@
+body {
+	margin: 2rem;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+li {
+	padding: 0.5rem;
+	margin: 0.5rem;
+	background: lightgrey;
+	font-weight: bold;
+}
