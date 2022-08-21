@@ -10,27 +10,25 @@
 </head>
 
 <body>
-  <!-- Este es mi primer comentario de dos líneas 
-Aprendiendo a documentar mi código con OpenBootcamp -->
-  <h1>Mis videos favoritos</h1>
-  <ul>
-    <li>
-      <a href="https://youtu.be/dMH0bHeiRNg" target="_blank">
-        Evolution of Dance
-      </a>
-    </li>
-    <li>
-      <a href="https://youtu.be/bvim4rsNHkQ" target="_blank">
-        How Not to Land an Orbital Rocket Booster
-      </a>
-    </li>
-    <li>
-      <a href="https://youtu.be/njos57IJf-0" target="_blank">
-        Steve Jobs vs Bill Gates. Epic Rap Battles of History
-      </a>
-    </li>
-
-  </ul>
+  <h1>Formulario en HTML</h1>
+  <form action="/">
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input name="nombre" id="nombre" type="text" required />
+    </div>
+    <div>
+      <label for="edad">Edad:</label>
+      <input name="edad" id="edad" type="number" />
+    </div>
+    <div>
+      <label for="frase-favorita">Frase favorita:</label>
+      <textarea name="frase-favorita" id="frase-favorita" type="text"></textarea>
+    </div>
+    <div>
+      <button id="enviar" type="submit">Enviar</button>
+      <button id="reset" type="reset">Reset</button>
+    </div>
+  </form>
 </body>
 
 </html>
