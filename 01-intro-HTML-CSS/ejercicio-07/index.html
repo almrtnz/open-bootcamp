@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="main.css" media="all" />
+</head>
+
+<body>
+  <div class="main-wrap">
+    <section class="sidebar">
+      <div class="sidebar-content">
+        <header><a href="#" class="logo"><img src="img/logo.svg" alt="logo"></a>
+          <h1>Ayudando a marcas y empresas a
+            conectar con la audiencia.</h1>
+        </header>
+        <figure>
+          <picture><img src="img/artwork.png" alt=""></picture>
+          <figcaption>Art by <a href="https://www.alwrks.com/" target="_blank">alwrks</a></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="content">
+      <nav>
+        <a href="#" class="logo-mobile"><img src="img/logo.svg" alt="logo"></a>
+        <p>¿Ya es miembro? <a href="#">Inicie sesión</a></p>
+      </nav>
+      <main>
+        <div class="sign-up-content">
+          <header>
+            <h1>¡Regístrese!</h1>
+          </header>
+          <div class="buttons">
+            <button class="btn google-btn">
+              <picture><img src="img/google.svg" alt="logo-google"></picture>
+              <span>Registrarse con Google</span>
+            </button>
+            <button class="btn twitter-btn">
+              <picture><img src="img/twitter.svg" alt="logo-twitter"></picture>
+            </button>
+          </div>
+
+          <div class="separator">
+            <hr>
+            <span>o</span>
+            <hr>
+          </div>
+          <!-- Formulario -->
+          <form action="" method="">
+            <div class="form-field-group">
+              <!-- Name -->
+              <div class="form-field">
+                <fieldset class="user_name"><label for="user_name">Nombre</label><input autocomplete="nombre"
+                    class="text-input" type="text" name="user[name]" id="user_name"></fieldset>
+              </div>
+              <!-- Username -->
+              <div class="form-field">
+                <fieldset class="user_login"><label for="user_login">Username</label><input autocorrect="off"
+                    autocapitalize="none" autocomplete="username" class="text-input" type="text" name="user[login]"
+                    id="user_login"></fieldset>
+              </div>
+            </div>
+            <!-- Email -->
+            <div class="form-field">
+              <fieldset class="user_email"><label for="user_email">Email</label><input class="text-input" type="text"
+                  name="user[email]" id="user_email"></fieldset>
+            </div>
+            <!-- Password -->
+            <div class="form-field">
+              <fieldset class="user_password"><label for="user_password">Contraseña</label><input class="text-input"
+                  placeholder="8+ caracteres" type="password" name="user[password]" id="user_password"></fieldset>
+            </div>
+            <div class="form-field">
+              <fieldset class="checkbox">
+                <input type="checkbox" id="user_agree" name="user[agree]">
+                <label for="user_agree">Crear una cuenta significa que estás de acuerdo con nuestras <a
+                    href="#">condiciones de
+                    servicio</a>, nuestra <a href="#">política de privacidad</a> y
+                  nuestra configuración de <a href="#">notificaciones por defecto</a>.
+                </label>
+              </fieldset>
+            </div>
+            <button type="submit">Crear Cuenta</button>
+            <p class="recaptcha">
+              Este sitio está protegido por reCAPTCHA y se aplica la
+              <a href="#">Política de privacidad</a> y las
+              <a href="#">Condiciones de servicio</a> de servicio de Google.
+            </p>
+        </div>
+        </form>
+        <!-- /Formulario -->
+  </div>
+  </main>
+  </section>
+  </div>
+</body>
+
+</html>
