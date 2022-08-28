@@ -16,4 +16,4 @@ _También existe la opción de utilizar un botón para que el usuario pueda eleg
 
 La **ilustración** ha sido creado por mi utilizando **Blender**.
 
-El *ejemplo* tiene algunas características **responsive**, cuando el ancho del viewport es inferior a 960px el sidebar con la ilustración desaparece.
+El _ejemplo_ tiene algunas características **responsive**, cuando el ancho del viewport es inferior a 960px el sidebar con la ilustración desaparece.
